@@ -117,7 +117,7 @@ To fetch a single user's public status messages, where `user` is either
 a Twitter *short name* or their user id.
 
 ```
->>> statuses = api.GetUserTimeline(user)
+>>> statuses = api.GetUserTimeline(screen_name = user)
 >>> print [s.text for s in statuses]
 ```
 
